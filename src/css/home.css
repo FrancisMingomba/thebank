@@ -1,0 +1,171 @@
+
+.body {
+    width: 100%;
+    height: auto;
+}
+.component1 {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    border: 0.25px solid black;
+    background: rgb(42, 226, 131);
+    align-items: center;
+}
+.component2 {
+    width: 100%;
+    display: grid;
+    grid-template: repeat(3, 100px) / repeat(2, 100px);
+    border: 0.25px solid black;   
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+     
+} 
+.component2_box1 {
+    width: 25%;
+    height: 10rem;
+    border: .25px solid black;
+}
+.component2_box2 {
+    width: 70%;
+    height: 10rem;
+    display: grid;
+    grid-template: repeat(2, 100px) / repeat(2, 100px);
+    border: 0.25px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.component2_box3 {
+    width: 5%;
+    height: 10rem;
+    border: .25px solid black;
+}
+.component2_box2-l1 {
+    list-style-type: none;
+    float: left;
+}
+.component2_box2-l2 {
+    list-style-type: none;
+    float: left;   
+}
+.component2_box2-ls {
+    width: 100%;
+    display: grid;
+    grid-template: repeat(2, 100px) / repeat(2, 100px);
+    border: 0.25px solid black;   
+    height: 100vh;
+}
+.box2-ls {
+    width: 100%;
+    height: 200px;
+    border: 0.25px solid black;
+}
+.component2_box2-l1 {
+    float: left;
+    padding-right: 20px;
+    margin-right: 40px;
+}
+.join {
+    font-style: italic;
+    list-style-type: none; 
+    display: inline;
+    float: right; 
+    margin-left: 30px;
+ }
+ .Apply_for_a_loan {
+     font-style: italic;
+     list-style-type: none; 
+     display: inline;
+     float: right; 
+     margin-left: 30px;
+  }
+  .Loan_Paymen {
+     font-style: italic;
+     list-style-type: none;   
+     display: inline;
+     float: right; 
+     margin-left: 30px;
+  }
+  .Branches_ATMs {
+     font-style: italic;
+     list-style-type: none;  
+     display: inline; 
+     float: right; 
+     margin-left: 30px;
+     
+  }
+  .For_Employers {
+     font-style: italic;
+     list-style-type: none;
+     display: inline;
+     float: right; 
+     margin-left: 30px;
+  }
+  .Rate {
+     font-style: italic;
+     list-style-type: none;   
+     display: inline;
+     float: right; 
+     margin-left: 30px;
+  }
+
+  .Bank {
+    font-style: italic;
+    list-style-type: none; 
+    display: inline;
+    float: left; 
+    margin-left: 200px;
+    font-weight: bold;
+    font-size: 20px;
+ }
+ .Borrow {
+     font-style: italic;
+     list-style-type: none; 
+     display: inline;
+     float: left; 
+     margin-left: 30px;
+     font-weight: bold;
+     font-size: 20px;
+  }
+  .Invest_Insure {
+     font-style: italic;
+     list-style-type: none;   
+     display: inline;
+     float: left; 
+     margin-left: 30px;
+     font-weight: bold;
+     font-size: 20px;
+  }
+  .Connect {
+     font-style: italic;
+     list-style-type: none;  
+     display: inline; 
+     float: left; 
+     margin-left: 30px;
+     font-weight: bold;
+     font-size: 20px;
+     
+  }
+  .Login {
+     font-style: italic;
+     list-style-type: none;
+     display: inline;
+     float: left; 
+     margin-left: 30px;
+     font-weight: bold;
+     font-size: 20px;
+  }
+  .Search_icon {
+     font-style: italic;
+     list-style-type: none;   
+     display: inline;
+     float: left; 
+     margin-left: 30px;
+     font-weight: bold;
+     font-size: 20px;
+  }
+
+ 
+
+ 
