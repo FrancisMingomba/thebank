@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 import "../css/home.css";
-
-
-
-
-
+import { FaSearch } from "react-icons/fa";
+//import { NavLink } from 'react-router-dom';
 
 
 class Home extends Component {
@@ -12,37 +9,34 @@ class Home extends Component {
     render() { 
         return (
             <div className="body"> 
-            <div className="component1">            
-               <div className="banner">Information here</div>
-            </div> 
-            <div className="component2">
-                <div className="component2_box1">A</div>
-                <div className="component2_box2">
-                   
-                        <div className="box2-ls">
+                 <div className="component1">            
+                    <div className="banner">Information here</div>
+                 </div> 
+                <div className="component2">
+                     <div className="component2_box1">A</div>
+                     <div className="component2_box2">
+                        <div className="ls">
                             <ul className="ul">
-                                <li a href="" className="join">Rates</li>
-                                <li className="Apply_for_a_loan">Apply for a loan</li>
-                                <li className="Loan_Paymen">Branches & ATMs</li>
-                                <li className="Branches_ATMs">For employers</li>
-                                <li className="For_Employers">Loan payment</li>
-                                <li className="Rate">Join</li>
-                            </ul> 
-                        </div> 
-                        <div className="box2-ls">                    
-                             <ul>
-                                <li className="Bank">Bank</li>
-                                <li className="Borrow">Borrow</li>
-                                <li className="Invest_Insure">Invest & Insure</li>
-                                <li className="Connect">Connect</li>
-                                <li className="Login">Login</li>
-                                <li className="Search_icon">Search icon</li>
-                            </ul>
+                                <li className="join"><a href="http://www.google.com">Rates</a></li>
+                                <li className="Apply_for_a_loan"><a href="http://www.google.com">Apply for a loan</a></li>
+                                <li className="Loan_Paymen"><a href="http://www.google.com">Branches & ATMs</a></li>
+                                <li className="Branches_ATMs"><a href="http://www.google.com">For employers</a></li>
+                                <li className="For_Employers"><a href="http://www.google.com">Loan payment</a></li>
+                                <li className="Rate"><a href="http://www.google.com">Join</a></li> 
+                                <li className="Rate"><a href="http://www.google.com">Join</a></li>                               
+                            </ul>   
+                        </div>                   
+                        <div className="component2_grid">
+                            <div className="grid">A</div>
+                            <div className="grid">B</div>
+                            <div className="grid">C</div>
+                            <div className="grid">D</div>
+                            <div className="grid">E</div>   
+                            < FaSearch  className="icon" />               
                         </div>
-                   
-                </div>
-                <div className="component2_box3">C</div>    
-            </div>
+                     </div>
+                    <div className="component2_box3">C</div>    
+                 </div>
             </div>
         );
     }
