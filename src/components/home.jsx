@@ -27,12 +27,12 @@ class Home extends Component {
                             </ul>   
                         </div>                   
                         <div className="component2_grid">
-                            <div className="grid">A</div>
-                            <div className="grid">B</div>
-                            <div className="grid">C</div>
-                            <div className="grid">D</div>
-                            <div className="grid">E</div>   
-                            < FaSearch  className="icon" />               
+                            <div className="grid">Bank</div>
+                            <div className="grid">Borrow</div>
+                            <div className="grid">Invest & Insure</div>
+                            <div className="grid">Connect</div>
+                            <div className="grid">Login</div>   
+                            < FaSearch size={20} color="rgb(42, 226, 131)" />               
                         </div>
                      </div>
                     <div className="component2_box3">C</div>    

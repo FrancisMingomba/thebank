@@ -49,13 +49,14 @@
     align-items: last baseline; 
 }
 .icon {
-    font-size: larger;
+    size: 80;
 }
 .grid {
     width: 11rem;
     height: 4rem;
     background: gold;
     border: 1px solid black;
+    
 }
 .boxx {
     width: 9rem;
