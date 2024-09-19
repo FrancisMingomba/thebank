@@ -22,17 +22,16 @@ class Home extends Component {
                                 <li className="Loan_Paymen"><a href="http://www.google.com">Branches & ATMs</a></li>
                                 <li className="Branches_ATMs"><a href="http://www.google.com">For employers</a></li>
                                 <li className="For_Employers"><a href="http://www.google.com">Loan payment</a></li>
-                                <li className="Rate"><a href="http://www.google.com">Join</a></li> 
-                                <li className="Rate"><a href="http://www.google.com">Join</a></li>                               
+                                <li className="Rate"><a href="http://www.google.com">Join</a></li>                             
                             </ul>   
                         </div>                   
                         <div className="component2_grid">
-                            <div className="grid"><p>Bank</p></div>
-                            <div className="grid"><p>Borrow</p></div>
-                            <div className="grid"><p>Invest & Insure</p></div>
-                            <div className="grid"><p>Connect</p></div>
-                            <div className="grid"><p>Login</p></div> 
-                            <div className="search_icon_div">< FaSearch className="search_icon" size={20} color="rgb(42, 226, 131)" /> </div>  
+                            <div className="grid"><p className="text_color">Bank</p></div>
+                            <div className="grid"><p className="text_color">Borrow</p></div>
+                            <div className="grid"><p className="text_color">Invest & Insure</p></div>
+                            <div className="grid"><p className="text_color">Connect</p></div>
+                            <div className="grid"><p className="text_color">Login</p></div> 
+                            <div className="search_icon_div">< FaSearch className="search_icon" size={25} color="rgb(7, 116, 59)" /> </div>  
                                           
                         </div>
                      </div>

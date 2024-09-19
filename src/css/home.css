@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center;
     border: 0.25px solid black;
-    background: rgb(42, 226, 131);
+    background: rgb(74, 237, 153);
     align-items: center;
 }
 .component2 {
@@ -49,9 +49,10 @@
     align-items: last baseline; 
     font-weight: bold;
     font-size: 20px;
-    text-align: center;
-   
-   
+    text-align: center; 
+}
+.text_color {
+    color: rgb(7, 116, 59);
 }
 .icon {
     size: 80;
@@ -59,10 +60,12 @@
 .grid {
     width: 11rem;
     height: 4rem;
-    background: gold;
     border: 1px solid black;
-  
     
+}
+.grid:hover {
+    cursor: pointer;
+    background-color: rgb(223, 223, 215);
 }
 .boxx {
     width: 9rem;
