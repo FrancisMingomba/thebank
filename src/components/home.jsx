@@ -79,6 +79,9 @@ class Home extends Component {
                             <  PiChatCircleDotsDuotone className="wallet" />
                            <p class="wallet">Feedback</p>                                                 
                         </div>                                          
+                      </div >
+                      <div className="component5">
+                        
                       </div>                                                        
                  </div>   
                        
