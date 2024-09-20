@@ -2,6 +2,12 @@ import React, { Component } from 'react';
 import "../css/home.css";
 import { FaSearch } from "react-icons/fa";
 //import { NavLink } from 'react-router-dom';
+import { PiWalletDuotone } from "react-icons/pi";
+import { PiCarDuotone } from "react-icons/pi";
+import { PiHouseLineDuotone } from "react-icons/pi";
+import { GiNetworkBars } from "react-icons/gi";
+import { PiIdentificationCardDuotone } from "react-icons/pi";
+import { PiChatCircleDotsDuotone } from "react-icons/pi";
 
 
 class Home extends Component {
@@ -12,7 +18,7 @@ class Home extends Component {
                  <div className="component1">            
                     <div className="banner">Information here</div>
                  </div> 
-                <div className="component2">
+                 <div className="component2">
                      <div className="component2_box1">A</div>
                      <div className="component2_box2">
                         <div className="ls">
@@ -31,13 +37,51 @@ class Home extends Component {
                             <div className="grid"><p className="text_color">Invest & Insure</p></div>
                             <div className="grid"><p className="text_color">Connect</p></div>
                             <div className="grid"><p className="text_color">Login</p></div> 
-                            <div className="search_icon_div">< FaSearch className="search_icon" size={25} color="rgb(7, 116, 59)" /> </div>  
-                                          
+                            <div className="search_icon_div">< FaSearch className="search_icon" size={25} color="rgb(7, 116, 59)" /> </div>                                          
                         </div>
                      </div>
                     <div className="component2_box3">C</div>    
-                 </div>
-            </div>
+                  </div>
+                  <div className="component3">
+                        <div className="component3_inner">
+                            <div className="component3_inner1"> 
+                                <p>div 1</p>
+                            </div>
+                            <div className="component3_inner2">
+                               <div className="img1">
+                                </div>
+                            </div>
+                            
+                        </div>
+                  </div>
+                  <div className="component4">              
+                     <div className="container2_boxes">
+                            <p class="wallet">< PiWalletDuotone  className="wallet" /></p>
+                            <p class="wallet">Checkin Acconut</p>                     
+                       </div>
+                       <div className="container2_boxes">                    
+                            < PiCarDuotone  className="wallet" />
+                            <p class="wallet">Auto Loans</p>                   
+                        </div>
+                        <div className="container2_boxes">                     
+                            <p class="wallet">< PiHouseLineDuotone  className="wallet" /></p>
+                            <p class="wallet">Mortgage Loan</p>                       
+                        </div>
+                        <div className="container2_boxes">                      
+                            < GiNetworkBars  className="wallet" />
+                            <p class="wallet">Morney Markets</p>                      
+                        </div>
+                        <div className="container2_boxes">                                   
+                           <  PiIdentificationCardDuotone  className="wallet" />
+                          <p class="wallet">Financial Education</p>                      
+                       </div> 
+                       <div className="container2_boxes">                    
+                            <  PiChatCircleDotsDuotone className="wallet" />
+                           <p class="wallet">Feedback</p>                                                 
+                        </div>                                          
+                      </div>                                                        
+                 </div>   
+                       
         );
     }
 }

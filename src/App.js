@@ -11,10 +11,7 @@ function App() {
   return (
     <React.Fragment>
     <div class="body">
-       <div><Home />
-       </div> 
-      
-      
+       <div><Home /></div>    
     </div>     
     
   </React.Fragment>
