@@ -81,7 +81,15 @@ class Home extends Component {
                         </div>                                          
                       </div >
                       <div className="component5">
-                        
+                      <div className="component5_inner">
+                            <div className="component5_inner1"> 
+                                <p>div 1</p>
+                            </div>
+                            <div className="component5_inner2">
+                               <div className="img1">
+                                </div>
+                            </div>                           
+                        </div>
                       </div>                                                        
                  </div>   
                        

@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center;
     border: 0.25px solid black;
-    background: rgb(74, 237, 153);
+    background: yellowgreen;
     align-items: center;
 }
 .component2 {
@@ -18,9 +18,7 @@
     grid-template: repeat(3, 100px) / repeat(2, 100px);
     border: 0.25px solid black;   
     display: flex;
-    flex-direction: row;
-    
-     
+    flex-direction: row;    
 } 
 
 .component2_box1 {
@@ -219,6 +217,42 @@
 .container2_boxes:hover {
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;  
+}
+.component5 {
+    width: 100%;
+    height: 430px;
+    border: 1px solid rgb(196, 27, 27);
+
+}
+.component5_inner {
+    width: 100%;
+    height: 400px;
+    background: rgb(87, 83, 83);
+
+}
+.component5_inner1 {
+    width: 600px;
+    height: 390px;
+    border: 1px solid black;
+    float: right; 
+    border:1px  solid rgb(14, 14, 15);
+
+}
+.component5_inner2 {
+    width: 710px;
+    height: 400px;
+    float: left;
+    margin-left: 40px;;
+    
+}
+.image {
+    margin-top: 30px;
+    width: 40rem;
+    height: 25rem;
+    border: 1px solid black;
+    background: yellowgreen;
+    border-radius: 10px;
+
 }
 
 
