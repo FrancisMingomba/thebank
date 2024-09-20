@@ -56,28 +56,28 @@ class Home extends Component {
                   </div>
                   <div className="component4">              
                      <div className="container2_boxes">
-                            <p class="wallet">< PiWalletDuotone  className="wallet" /></p>
-                            <p class="wallet">Checkin Acconut</p>                     
+                            < PiWalletDuotone  className="wallet" />
+                            <p class="container2_boxes_text">Checkin Acconut</p>                     
                        </div>
                        <div className="container2_boxes">                    
                             < PiCarDuotone  className="wallet" />
-                            <p class="wallet">Auto Loans</p>                   
+                            <p class="container2_boxes_text">Auto Loans</p>                   
                         </div>
                         <div className="container2_boxes">                     
-                            <p class="wallet">< PiHouseLineDuotone  className="wallet" /></p>
-                            <p class="wallet">Mortgage Loan</p>                       
+                            < PiHouseLineDuotone  className="wallet" />
+                            <p class="container2_boxes_text">Mortgage Loan</p>                       
                         </div>
                         <div className="container2_boxes">                      
                             < GiNetworkBars  className="wallet" />
-                            <p class="wallet">Morney Markets</p>                      
+                            <p class="container2_boxes_text">Money Markets</p>                      
                         </div>
                         <div className="container2_boxes">                                   
                            <  PiIdentificationCardDuotone  className="wallet" />
-                          <p class="wallet">Financial Education</p>                      
+                          <p class="container2_boxes_text">Financial Education</p>                      
                        </div> 
                        <div className="container2_boxes">                    
                             <  PiChatCircleDotsDuotone className="wallet" />
-                           <p class="wallet">Feedback</p>                                                 
+                           <p class="container2_boxes_text">Feedback</p>                                                 
                         </div>                                          
                       </div >
                       <div className="component5">

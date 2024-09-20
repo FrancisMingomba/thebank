@@ -203,24 +203,22 @@
     color: rgb(79, 71, 71);
     text-align:center;
     font-weight: bold;
-    
-  
 }  
+.container2_boxes_text {
+   text-align: center;
+   font-weight: bold;
+   color: rgb(7, 116, 59);
+}
 .container2_boxes {
     width: 11rem;
     height: 7.5rem;
   
     transition: box-shadow .19s;
-    background: #fff;
- 
-    
+    background: #fff;  
 }
 .container2_boxes:hover {
     cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-   
-   
-  
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;  
 }
 
 
