@@ -8,6 +8,7 @@ import { PiHouseLineDuotone } from "react-icons/pi";
 import { GiNetworkBars } from "react-icons/gi";
 import { PiIdentificationCardDuotone } from "react-icons/pi";
 import { PiChatCircleDotsDuotone } from "react-icons/pi";
+import LAPTOP from "../images/laptop.jpg";
 
 
 class Home extends Component {
@@ -81,18 +82,44 @@ class Home extends Component {
                         </div>                                          
                       </div >
                       <div className="component5">
-                      <div className="component5_inner">
-                            <div className="component5_inner1"> 
-                                <p>div 1</p>
-                            </div>
-                            <div className="component5_inner2">
-                               <div className="img1">
+                        <div className="component5_inner">
+                                <div className="component5_inner1"> 
+                                    <p>div 1</p>
                                 </div>
-                            </div>                           
-                        </div>
-                      </div>                                                        
-                 </div>   
+                                <div className="component5_inner2">
+                                    <div className="img1">
+                                </div>
+                                </div>                           
+                            </div>
+                      </div> 
+                    <div className="component6">
+                            <div className="other">
+                            <h1 className="p-other">Image here...</h1>
+                    </div>
+                </div >  
+                <div className="component7">
+                <div className="news-annocements"><p className="news_annocements">News & Annocements</p></div>  
+                </div>  
+               
+                <div className="component8">
+                    <div className="component8_inner">
+
+                    <div className="laptop-image_div"><img className="laptop-image" src={LAPTOP} alt="" /></div>
+                         <div className="p_box">
+                        <p className="p1">Advantureland tickets</p>
+                        <p className="p2">Discounted tickets are here  </p> 
+                        <p className="p3">Advanturelands tickets Advanturelands tickets Advanturelands tickets Advanturelands</p>
+                        <p className="p3">Advanturelands tickets Advanturelands tickets $20.99.</p>
                        
+                        </div>
+                        <div className="learn_more">Learn more</div>
+                            
+                  
+                    </div>
+                </div>
+
+               
+            </div>                                                                            
         );
     }
 }
