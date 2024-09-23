@@ -98,7 +98,7 @@ class Home extends Component {
                     </div>
                 </div >  
                 <div className="component7">
-                <div className="news-annocements"><p className="news_annocements">News & Annocements</p></div>  
+                    <div className="news-annocements"><p className="news_annocements">News & Annocements</p></div>  
                 </div>  
                
                 <div className="component8">
@@ -112,13 +112,11 @@ class Home extends Component {
                         <p className="p3">Advanturelands tickets Advanturelands tickets $20.99.</p>
                        
                         </div>
-                        <div className="learn_more">Learn more</div>
-                            
-                  
+                        <div className="learn_more">Learn more</div>                 
                     </div>
-                </div>
-
-               
+                </div> 
+                <div className="footer">
+                </div>              
             </div>                                                                            
         );
     }
