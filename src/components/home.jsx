@@ -106,17 +106,34 @@ class Home extends Component {
 
                     <div className="laptop-image_div"><img className="laptop-image" src={LAPTOP} alt="" /></div>
                          <div className="p_box">
-                        <p className="p1">Advantureland tickets</p>
-                        <p className="p2">Discounted tickets are here  </p> 
-                        <p className="p3">Advanturelands tickets Advanturelands tickets Advanturelands tickets Advanturelands</p>
-                        <p className="p3">Advanturelands tickets Advanturelands tickets $20.99.</p>
-                       
+                            <p className="p1">Advantureland tickets</p>
+                            <p className="p2">Discounted tickets are here  </p> 
+                            <p className="p3">Advanturelands tickets Advanturelands tickets Advanturelands tickets Advanturelands</p>
+                            <p className="p3">Advanturelands tickets Advanturelands tickets $20.99.</p>                      
                         </div>
                         <div className="learn_more">Learn more</div>                 
                     </div>
                 </div> 
-                <div className="footer">
-                </div>              
+                <div className="component9">
+                    
+                    <div  className="component9_inner">A</div>
+                    <div  className="component9_inner">
+                        <div className="component9_inner2">
+                            <div  className="component9_inner2_box">A</div>
+                            <div  className="component9_inner2_box">B</div>
+                            <div  className="component9_inner2_box box_three">C</div>
+                            <div  className="component9_inner2_box box_four">D</div>
+                            
+
+                            
+
+                            
+                            
+
+                        </div>
+                    </div>
+
+                </div>            
             </div>                                                                            
         );
     }
