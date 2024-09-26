@@ -114,22 +114,48 @@ class Home extends Component {
                         <div className="learn_more">Learn more</div>                 
                     </div>
                 </div> 
-                <div className="component9">
+                <div className="component9">                  
+                    <div  className="component9_inner">
+                        <div className="component9_inner_one">
+                            <div className="component9_div ">
+                                <div className="footer_list">
+                                     <ul  className="footer_list1">                      
+                                        <li className="footer_item"><a href="/#">Privacy Policy</a></li>
+                                        <li className="footer_item"><a href="/#">Terms & Condition</a></li>
+                                        <li className="footer_item"><a href="/#">Helps & Support</a></li>
+                                        <li className="footer_item"><a href="/#">Contact us</a></li>                       
+                                     </ul>
+                                </div>
+                                <div className="follow">
+                                    <p className="follow_us">Follow us</p>
+                                </div>
+                                <div className="social_media">
+                                    <div className="social_box">1</div>
+                                    <div className="social_box">2</div>
+                                    <div className="social_box">3</div>
+                                    <div className="social_box">4</div>
+                                </div>
+                                <div className="footer_bottom">
+                                    &copy;2024
+                                </div>
+                           </div>
+                           
+
+                           
                     
-                    <div  className="component9_inner">A</div>
+                            <div className="component9_div ">
+                                 <div className="vertical-line"></div>
+                            </div> 
+                                                  
+                        </div>
+                     
+                    </div>
                     <div  className="component9_inner">
                         <div className="component9_inner2">
                             <div  className="component9_inner2_box">A</div>
                             <div  className="component9_inner2_box">B</div>
                             <div  className="component9_inner2_box box_three">C</div>
                             <div  className="component9_inner2_box box_four">D</div>
-                            
-
-                            
-
-                            
-                            
-
                         </div>
                     </div>
 
