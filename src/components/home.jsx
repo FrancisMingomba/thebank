@@ -99,8 +99,7 @@ class Home extends Component {
                 </div >  
                 <div className="component7">
                     <div className="news-annocements"><p className="news_annocements">News & Annocements</p></div>  
-                </div>  
-               
+                </div>               
                 <div className="component8">
                     <div className="component8_inner">
 
@@ -138,17 +137,11 @@ class Home extends Component {
                                 <div className="footer_bottom">
                                     &copy;2024
                                 </div>
-                           </div>
-                           
-
-                           
-                    
+                           </div>                   
                             <div className="component9_div ">
                                  <div className="vertical-line"></div>
-                            </div> 
-                                                  
-                        </div>
-                     
+                            </div>                                                 
+                        </div>                    
                     </div>
                     <div  className="component9_inner">
                         <div className="component9_inner2">
