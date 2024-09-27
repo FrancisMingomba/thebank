@@ -144,12 +144,15 @@ class Home extends Component {
                         </div>                    
                     </div>
                     <div  className="component9_inner">
-                        <div className="component9_inner2">
-                            <div  className="component9_inner2_box">A</div>
-                            <div  className="component9_inner2_box">B</div>
-                            <div  className="component9_inner2_box box_three">C</div>
-                            <div  className="component9_inner2_box box_four">D</div>
+                        <div className="container">
+                            <div className="box b-one">A</div>
+                            <div className="box b-two">B</div>
+                            <div className="box b-three">C</div>
+                            <div className="box b-four">D</div>
+
+
                         </div>
+                       
                     </div>
 
                 </div>            
