@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import "../css/home.css";
 import { FaSearch } from "react-icons/fa";
-//import { NavLink } from 'react-router-dom';
 import { PiWalletDuotone } from "react-icons/pi";
 import { PiCarDuotone } from "react-icons/pi";
 import { PiHouseLineDuotone } from "react-icons/pi";
@@ -46,7 +45,14 @@ class Home extends Component {
                   <div className="component3">
                         <div className="component3_inner">
                             <div className="component3_inner1"> 
-                                <p>div 1</p>
+                                <p className="p p1 margin">Have an auto loan elsewhere?</p>
+                                <p className="p margin">When you refinance your loan to Credit Union</p>
+                                <ul>
+                                    <li className="p margin line-space">Get a $100 $200 cash bonus when you refinance by July 01, 2024</li>
+                                    <li className="p margin line-space">Get a $100 $200 cash bonus when you refinance by Jujy 01, 2024</li>
+                                    <li className="p margin line-space">Get a $100 $200 cash bonus when you refinance by July 01, 2024</li>
+                                </ul>
+                                <div className="get-started"><p className="p-get-started">Get Started</p></div>
                             </div>
                             <div className="component3_inner2">
                                <div className="img1">
@@ -84,7 +90,14 @@ class Home extends Component {
                       <div className="component5">
                         <div className="component5_inner">
                                 <div className="component5_inner1"> 
-                                    <p>div 1</p>
+                                <p className="p">Have an auto loan elsewhere?</p>
+                                <p className="p">When you refinance your loan to Credit Union</p>
+                                <ul>
+                                    <li className="p">Get a $100 $200 cash bonus when you refinance by July 01, 2024</li>
+                                    <li className="p">Get a $100 $200 cash bonus when you refinance by Jujy 01, 2024</li>
+                                    <li className="p">Get a $100 $200 cash bonus when you refinance by July 01, 2024</li>
+                                </ul>
+                                <div className="get-started"><p className="p-get-started">Get Started</p></div>
                                 </div>
                                 <div className="component5_inner2">
                                     <div className="img1">
@@ -144,17 +157,13 @@ class Home extends Component {
                         </div>                    
                     </div>
                     <div  className="component9_inner">
-                        <div className="container">
+                        <div className="container">                           
                             <div className="box b-one">A</div>
                             <div className="box b-two">B</div>
                             <div className="box b-three">C</div>
                             <div className="box b-four">D</div>
-
-
-                        </div>
-                       
+                        </div>                    
                     </div>
-
                 </div>            
             </div>                                                                            
         );
