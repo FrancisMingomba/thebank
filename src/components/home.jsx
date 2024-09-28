@@ -8,6 +8,7 @@ import { GiNetworkBars } from "react-icons/gi";
 import { PiIdentificationCardDuotone } from "react-icons/pi";
 import { PiChatCircleDotsDuotone } from "react-icons/pi";
 import LAPTOP from "../images/laptop.jpg";
+import AUTO from "../images/auto.jpg";
 
 
 class Home extends Component {
@@ -55,8 +56,7 @@ class Home extends Component {
                                 <div className="get-started"><p className="p-get-started">Get Started</p></div>
                             </div>
                             <div className="component3_inner2">
-                               <div className="img1">
-                                </div>
+                            <div className="auto-image-container"><img className="auto-image" src={AUTO} alt="" /></div>
                             </div>
                             
                         </div>
