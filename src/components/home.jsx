@@ -90,9 +90,11 @@ class Home extends Component {
                       <div className="component5">
                         <div className="component5_inner">
                                 <div className="component5_inner1"> 
-                                <p className="p">Have an auto loan elsewhere?</p>
-                                <p className="p">When you refinance your loan to Credit Union</p>
-                                <ul>
+                                <p className="p p1">Free Checking</p>
+                                <p className="p p2">Whth all of the conveniences you expert</p>
+                                <ul className="ul1">
+                                    <li className="p">Get a $100 $200 cash bonus when you refinance by July 01, 2024</li>
+                                    <li className="p">Get a $100 $200 cash bonus when you refinance by Jujy 01, 2024</li>
                                     <li className="p">Get a $100 $200 cash bonus when you refinance by July 01, 2024</li>
                                     <li className="p">Get a $100 $200 cash bonus when you refinance by Jujy 01, 2024</li>
                                     <li className="p">Get a $100 $200 cash bonus when you refinance by July 01, 2024</li>
