@@ -9,6 +9,11 @@ import { PiIdentificationCardDuotone } from "react-icons/pi";
 import { PiChatCircleDotsDuotone } from "react-icons/pi";
 import LAPTOP from "../images/laptop.jpg";
 import AUTO from "../images/auto.jpg";
+import FREECHECKING from "../images/free-checking-image.jpg";
+import { TfiFacebook } from "react-icons/tfi";
+import { BsInstagram } from "react-icons/bs";
+import { ImLinkedin2 } from "react-icons/im";
+import { RiTwitterXFill } from "react-icons/ri";
 
 
 class Home extends Component {
@@ -102,8 +107,7 @@ class Home extends Component {
                                 <div className="get-started"><p className="p-get-started">Get Started</p></div>
                                 </div>
                                 <div className="component5_inner2">
-                                    <div className="img1">
-                                </div>
+                                <div className="free-checking-image"><img className="auto-image" src={FREECHECKING} alt="" /></div>
                                 </div>                           
                             </div>
                       </div> 
@@ -137,21 +141,28 @@ class Home extends Component {
                                         <li className="footer_item"><a href="/#">Privacy Policy</a></li>
                                         <li className="footer_item"><a href="/#">Terms & Condition</a></li>
                                         <li className="footer_item"><a href="/#">Helps & Support</a></li>
-                                        <li className="footer_item"><a href="/#">Contact us</a></li>                       
+                                        <li className="footer_item"><a href="/#">Contact us</a></li>  
+                                                             
                                      </ul>
                                 </div>
                                 <div className="follow">
                                     <p className="follow_us">Follow us</p>
                                 </div>
                                 <div className="social_media">
-                                    <div className="social_box">1</div>
-                                    <div className="social_box">2</div>
-                                    <div className="social_box">3</div>
-                                    <div className="social_box">4</div>
+                                    <div className="social_box">
+                                    <TfiFacebook className="facebook" />
+                                    </div>
+                                    <div className="social_box">
+                                    <BsInstagram />
+                                    </div>
+                                    <div className="social_box">
+                                    <ImLinkedin2 />
+                                    </div>
+                                    <div className="social_box">
+                                    <RiTwitterXFill />
+                                    </div>
                                 </div>
-                                <div className="footer_bottom">
-                                    &copy;2024
-                                </div>
+                             
                            </div>                   
                             <div className="component9_div ">
                                  <div className="vertical-line"></div>
@@ -160,7 +171,9 @@ class Home extends Component {
                     </div>
                     <div  className="component9_inner">
                         <div className="container">                           
-                            <div className="box b-one">A</div>
+                            <div className="box b-one">
+                         
+                            </div>
                             <div className="box b-two">B</div>
                             <div className="box b-three">C</div>
                             <div className="box b-four">D</div>
