@@ -14,6 +14,7 @@ import { TfiFacebook } from "react-icons/tfi";
 import { BsInstagram } from "react-icons/bs";
 import { ImLinkedin2 } from "react-icons/im";
 import { RiTwitterXFill } from "react-icons/ri";
+import IMAGE1 from "../images/image1.jpg";
 
 
 class Home extends Component {
@@ -172,10 +173,14 @@ class Home extends Component {
                     <div  className="component9_inner">
                         <div className="container">                           
                             <div className="box b-one">
-                         
+                            <div id="image1-div"><img id="footer-image1" src={IMAGE1} alt="" /></div>
                             </div>
-                            <div className="box b-two">B</div>
-                            <div className="box b-three">C</div>
+                            <div className="box b-two">
+                            <div id="image1-div"><img id="footer-image2" src={IMAGE1} alt="" /></div>
+                            </div>
+                            <div className="box b-three">
+                            <div id="image1-div"><img id="footer-image3" src={IMAGE1} alt="" /></div>
+                            </div>
                             <div className="box b-four">D</div>
                         </div>                    
                     </div>
