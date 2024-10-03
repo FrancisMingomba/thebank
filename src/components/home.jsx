@@ -15,6 +15,7 @@ import { BsInstagram } from "react-icons/bs";
 import { ImLinkedin2 } from "react-icons/im";
 import { RiTwitterXFill } from "react-icons/ri";
 import IMAGE1 from "../images/image1.jpg";
+import { NavLink , Link } from  "react-router-dom";
 
 
 class Home extends Component {
@@ -38,14 +39,25 @@ class Home extends Component {
                                 <li className="Rate"><a href="http://www.google.com">Join</a></li>                             
                             </ul>   
                         </div>                   
-                        <div className="component2_grid">
-                            <div className="grid"><p className="text_color">Bank</p></div>
-                            <div className="grid"><p className="text_color">Borrow</p></div>
-                            <div className="grid"><p className="text_color">Invest & Insure</p></div>
-                            <div className="grid"><p className="text_color">Connect</p></div>
-                            <div className="grid"><p className="text_color">Login</p></div> 
-                            <div className="search_icon_div">< FaSearch className="search_icon" size={25} color="rgb(7, 116, 59)" /> </div>                                          
-                        </div>
+                        <nav className="component2_grid">
+     
+                            <Link  className="nav-item" to="/">
+                                 <div className="grid"><p className="text_color">Bank</p></div>
+                            </Link>
+                            <NavLink  className="nav-item" to="/" >
+                                 <div className="grid"><p className="text_color">Borrow</p></div>
+                            </NavLink>
+                           <NavLink  className="nav-item" to="/">
+                                 <div className="grid"><p className="text_color">Invest & Insure</p></div>
+                           </NavLink >
+                           <NavLink  className="nav-item"  to="/">  
+                                 <div className="grid"><p className="text_color">Connect</p></div>
+                           </NavLink>                         
+                            <NavLink className="nav-item"   to="/">
+                                 <div className="grid"><p className="text_color">Login</p></div> 
+                            </NavLink>
+                            <div className="search_icon_div nav-link">< FaSearch className="search_icon" size={25} color="rgb(7, 116, 59)" /> </div>                                          
+                        </nav>
                      </div>
                     <div className="component2_box3">C</div>    
                   </div>
@@ -142,8 +154,7 @@ class Home extends Component {
                                         <li className="footer_item"><a href="/#">Privacy Policy</a></li>
                                         <li className="footer_item"><a href="/#">Terms & Condition</a></li>
                                         <li className="footer_item"><a href="/#">Helps & Support</a></li>
-                                        <li className="footer_item"><a href="/#">Contact us</a></li>  
-                                                             
+                                        <li className="footer_item"><a href="/#">Contact us</a></li>                                                             
                                      </ul>
                                 </div>
                                 <div className="follow">
