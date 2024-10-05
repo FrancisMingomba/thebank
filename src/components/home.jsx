@@ -16,6 +16,7 @@ import { ImLinkedin2 } from "react-icons/im";
 import { RiTwitterXFill } from "react-icons/ri";
 import IMAGE1 from "../images/image1.jpg";
 import { NavLink , Link } from  "react-router-dom";
+//import loginForm from "./loginForm";
 
 
 
@@ -28,6 +29,7 @@ class Home extends Component {
         
         const handleClick = () => {
             console.log("login form");
+            <loginForm />
           
             
         }
@@ -63,13 +65,14 @@ class Home extends Component {
                            <NavLink  className="nav-item" to="/">
                                  <div className="grid"><p className="text_color">Invest & Insure</p></div>
                            </NavLink >
-                           <NavLink  className="nav-item"  to="/">  
+                           <NavLink  className="nav-item"  to="/login">  
                                  <div className="grid"><p className="text_color">Connect</p></div>
                            </NavLink>                         
                            
                                 <div>
-                                    <botton onClick={handleClick}>
+                                   
                                     <div className="grid"><p className="text_color">Login</p></div> 
+                                    <botton onClick={handleClick}>
                                     </botton>
                                 </div>
                                  
