@@ -18,16 +18,28 @@ import IMAGE1 from "../images/image1.jpg";
 import { NavLink , Link } from  "react-router-dom";
 
 
+
+
+
+
 class Home extends Component {
-    state = {  } 
+  
     render() { 
+        
+        const handleClick = () => {
+            console.log("login form");
+          
+            
+        }
+
+
         return (
             <div className="body"> 
                  <div className="component1">            
                     <div className="banner">Information here</div>
                  </div> 
                  <div className="component2">
-                     <div className="component2_box1">A</div>
+                     <div className="component2_box1">Logo here</div>
                      <div className="component2_box2">
                         <div className="ls">
                             <ul className="ul">
@@ -44,6 +56,7 @@ class Home extends Component {
                             <Link  className="nav-item" to="/">
                                  <div className="grid"><p className="text_color">Bank</p></div>
                             </Link>
+     
                             <NavLink  className="nav-item" to="/" >
                                  <div className="grid"><p className="text_color">Borrow</p></div>
                             </NavLink>
@@ -53,9 +66,15 @@ class Home extends Component {
                            <NavLink  className="nav-item"  to="/">  
                                  <div className="grid"><p className="text_color">Connect</p></div>
                            </NavLink>                         
-                            <NavLink className="nav-item"   to="/">
-                                 <div className="grid"><p className="text_color">Login</p></div> 
-                            </NavLink>
+                           
+                                <div>
+                                    <botton onClick={handleClick}>
+                                    <div className="grid"><p className="text_color">Login</p></div> 
+                                    </botton>
+                                </div>
+                                 
+                                    
+                            
                             <div className="search_icon_div nav-link">< FaSearch className="search_icon" size={25} color="rgb(7, 116, 59)" /> </div>                                          
                         </nav>
                      </div>
