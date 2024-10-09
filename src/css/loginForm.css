@@ -1,0 +1,32 @@
+
+.loginn {
+    color: aquamarine;
+}
+.btn {
+    width: 100px;
+    height: 40px;
+    background-color: blue;
+   
+}
+.input {
+    margin-left: 400px;
+    
+}
+.auto-form-container {
+    background-image: linear-gradient(45deg, rgb(241, 241, 247), rgb(235, 171, 171));
+    padding: 50px;
+    margin-top: 80px;
+    margin-left: 300px;
+    border: 0.5px solid white;
+    border-radius: 10px;
+    height: 200px;
+    width: 250px;
+    
+}
+.form-group {
+    margin-left: 80px;
+  
+}
+.form-control {
+    margin-left: 40px;
+}

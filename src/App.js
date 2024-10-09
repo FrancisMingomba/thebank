@@ -16,7 +16,7 @@ class App extends Component {
         <main className="">
           <Routes>           
                
-               <Route path="/login" Component={LoginForm  } />
+               <Route path="login" Component={LoginForm  } />
           </Routes>
         </main>
       </React.Fragment>

@@ -16,9 +16,6 @@ import { ImLinkedin2 } from "react-icons/im";
 import { RiTwitterXFill } from "react-icons/ri";
 import IMAGE1 from "../images/image1.jpg";
 import { NavLink , Link } from  "react-router-dom";
-//import loginForm from "./loginForm";
-
-
 
 
 
@@ -26,13 +23,10 @@ import { NavLink , Link } from  "react-router-dom";
 class Home extends Component {
   
     render() { 
-        
-        const handleClick = () => {
-            console.log("login form");
-            <loginForm />
-          
-            
-        }
+
+   function Car() {
+    console.log("It works");
+   }
 
 
         return (
@@ -70,10 +64,11 @@ class Home extends Component {
                            </NavLink>                         
                            
                                 <div>
+                                <button onClick={Car}> </button>
                                    
                                     <div className="grid"><p className="text_color">Login</p></div> 
-                                    <botton onClick={handleClick}>
-                                    </botton>
+                                   
+                                   
                                 </div>
                                  
                                     
@@ -104,27 +99,27 @@ class Home extends Component {
                   <div className="component4">              
                      <div className="container2_boxes">
                             < PiWalletDuotone  className="wallet" />
-                            <p class="container2_boxes_text">Checkin Acconut</p>                     
+                            <p className="container2_boxes_text">Checkin Acconut</p>                     
                        </div>
                        <div className="container2_boxes">                    
                             < PiCarDuotone  className="wallet" />
-                            <p class="container2_boxes_text">Auto Loans</p>                   
+                            <p className="container2_boxes_text">Auto Loans</p>                   
                         </div>
                         <div className="container2_boxes">                     
                             < PiHouseLineDuotone  className="wallet" />
-                            <p class="container2_boxes_text">Mortgage Loan</p>                       
+                            <p className="container2_boxes_text">Mortgage Loan</p>                       
                         </div>
                         <div className="container2_boxes">                      
                             < GiNetworkBars  className="wallet" />
-                            <p class="container2_boxes_text">Money Markets</p>                      
+                            <p className="container2_boxes_text">Money Markets</p>                      
                         </div>
                         <div className="container2_boxes">                                   
                            <  PiIdentificationCardDuotone  className="wallet" />
-                          <p class="container2_boxes_text">Financial Education</p>                      
+                          <p className="container2_boxes_text">Financial Education</p>                      
                        </div> 
                        <div className="container2_boxes">                    
                             <  PiChatCircleDotsDuotone className="wallet" />
-                           <p class="container2_boxes_text">Feedback</p>                                                 
+                           <p className="container2_boxes_text">Feedback</p>                                                 
                         </div>                                          
                       </div >
                       <div className="component5">
