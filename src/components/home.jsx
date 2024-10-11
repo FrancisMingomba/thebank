@@ -24,7 +24,7 @@ class Home extends Component {
   
     render() { 
 
-   function Car() {
+   function Login() {
     console.log("It works");
    }
 
@@ -56,15 +56,15 @@ class Home extends Component {
                             <NavLink  className="nav-item" to="/" >
                                  <div className="grid"><p className="text_color">Borrow</p></div>
                             </NavLink>
-                           <NavLink  className="nav-item" to="/">
-                                 <div className="grid"><p className="text_color">Invest & Insure</p></div>
+                           <NavLink  className="nav-item" to="register">
+                                 <div className="grid"><p className="text_color">register</p></div>
                            </NavLink >
-                           <NavLink  className="nav-item"  to="/login">  
+                           <NavLink  className="nav-item"  to="login">  
                                  <div className="grid"><p className="text_color">Connect</p></div>
                            </NavLink>                         
                            
                                 <div>
-                                <button onClick={Car}> </button>
+                                <button onClick={Login}> </button>
                                    
                                     <div className="grid"><p className="text_color">Login</p></div> 
                                    

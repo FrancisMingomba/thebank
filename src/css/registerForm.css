@@ -1,9 +1,9 @@
 .auto-form-container {
-    background-color:  rgb(164, 229, 187);;
+    background-image: rgb(164, 229, 187);
     padding: 25px;
     margin-top: 80px;
     margin-left: 300px;
-    border: 0.5px solid rgba(255, 255, 255, 0.397);
+    border: 0.5px solid white;
     border-radius: 10px;
     height: auto;
     width: 300px;
@@ -11,8 +11,12 @@
 .btn {
     width: 80px;
     height: 40px;
+    border-radius: 10px;
+    
+    
 }
 .form-group {
     height: 50px;
     width: 200px;
+    border-radius: 10px;
 }

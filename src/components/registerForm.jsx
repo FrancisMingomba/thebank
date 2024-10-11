@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import "../css/loginForm.css";
+import "../css/registerForm.css";
 import Input from './input';
 
 
@@ -35,15 +35,21 @@ class LoginForm extends Component {
                      onChange={this.handleChange}
 
                     />
-                     <Input 
-                   
+                     <Input                 
                      name="password"
                      value={account.password}
                      label="Password"
                      onChange={this.handleChange}
                    />
-                    <button className="btn btn-primary">Login</button>
-                   <p>Frgotten password</p>                   
+                    
+                     <Input                 
+                     name="email"
+                     value={account.password}
+                     label="email"
+                     onChange={this.handleChange}
+                   />
+                   
+                    <button className="btn btn-primary">Login</button>                
                  </form>    
              </div>
             );
