@@ -16,19 +16,14 @@ import { ImLinkedin2 } from "react-icons/im";
 import { RiTwitterXFill } from "react-icons/ri";
 import IMAGE1 from "../images/image1.jpg";
 import { NavLink , Link } from  "react-router-dom";
-
-
+//import LoginForm from "./loginForm";
+//import Modal from './modal';
 
 
 class Home extends Component {
+
   
     render() { 
-
-   function Login() {
-    console.log("It works");
-   }
-
-
         return (
             <div className="body"> 
                  <div className="component1">            
@@ -56,23 +51,17 @@ class Home extends Component {
                             <NavLink  className="nav-item" to="/" >
                                  <div className="grid"><p className="text_color">Borrow</p></div>
                             </NavLink>
-                           <NavLink  className="nav-item" to="register">
+                           <NavLink  className="nav-item" to="/">
                                  <div className="grid"><p className="text_color">register</p></div>
                            </NavLink >
-                           <NavLink  className="nav-item"  to="login">  
-                                 <div className="grid"><p className="text_color">Connect</p></div>
-                           </NavLink>                         
-                           
-                                <div>
-                                <button onClick={Login}> </button>
-                                   
+                           <NavLink  className="nav-item"  to="LoginForm">  
+                                 <div className="grid"><p className="text_color">Connect</p>     
+                                 </div>
+                           </NavLink>                                                   
+                                <div>                                   
                                     <div className="grid"><p className="text_color">Login</p></div> 
-                                   
-                                   
-                                </div>
-                                 
-                                    
-                            
+                                                                                                             
+                                </div>                          
                             <div className="search_icon_div nav-link">< FaSearch className="search_icon" size={25} color="rgb(7, 116, 59)" /> </div>                                          
                         </nav>
                      </div>

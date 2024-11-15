@@ -3,6 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./components/home";
 import LoginForm from './components/loginForm';
 import RegisterForm from './components/registerForm';
+import NoPageFound from './components/noPageFound';
 
 
 class App extends Component {
@@ -19,6 +20,7 @@ class App extends Component {
                
                <Route path="/login" Component={LoginForm  } />
                <Route path="/register" Component={ RegisterForm  } />
+               <Route path="*" Component={ NoPageFound  } />
           </Routes>
         </main>
       </React.Fragment>

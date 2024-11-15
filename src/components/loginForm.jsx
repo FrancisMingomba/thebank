@@ -9,6 +9,11 @@ class LoginForm extends Component {
         account: { username: "", password:""}
     };
 
+     Modal = ({open}) => {
+        if (!open) return null;
+
+    }
+
     handleSubumit = e => {
         e.prenventDefault();
         //call the server
@@ -43,7 +48,7 @@ class LoginForm extends Component {
                      onChange={this.handleChange}
                    />
                     <button className="btn btn-primary">Login</button>
-                   <p>Frgotten password</p>                   
+                   <p>Forgotten password</p>                   
                  </form>    
              </div>
             );

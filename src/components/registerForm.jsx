@@ -25,7 +25,7 @@ class LoginForm extends Component {
         const  { account } = this.state;
         return (
             <div className="auto-form-container">
-                <h1 className="login-text">Login </h1>
+                <h1 className="login-text">Register Form </h1>
                  <form className="form" onSubmit={this.handleSubmit}>
                    <Input 
                   
@@ -45,7 +45,7 @@ class LoginForm extends Component {
                      <Input                 
                      name="email"
                      value={account.password}
-                     label="email"
+                     label="Email"
                      onChange={this.handleChange}
                    />
                    
